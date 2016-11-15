@@ -1,5 +1,5 @@
-# UUID          Group Name
-False 	Non-Interactive Users
-1b5e8a1d27a4c618d61907480c764cecad2e45b9       	centos-opstools/rubygem-fluent-plugin-secure-forward-core
-3c5821975a15dc4400a0418c5b8cfcec2be16cfb        	centos-opstools/rubygem-fluent-plugin-secure-forward-ptl
-global:Registered-Users		Registered Users
+# UUID                                  	Group Name
+#
+757c85abcd9ba70f7b7b0fd5a0a43e7506f820c5	centos-opstools/ptl
+b60725751ff1c8f5f13106753f5233e2ea34f818	centos-opstools/core
+global:Registered-Users                 	Registered Users
