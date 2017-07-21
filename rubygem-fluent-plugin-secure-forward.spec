@@ -2,8 +2,8 @@
 %global gem_name fluent-plugin-secure-forward
 
 Name: rubygem-%{gem_name}
-Version: 0.4.3
-Release: 2%{?dist}
+Version: 0.4.5
+Release: 1%{?dist}
 Summary: Fluentd input/output plugin to forward over SSL with authentications
 Group: Development/Languages
 License: Apache-2.0
@@ -86,6 +86,9 @@ popd
 %{gem_instdir}/test
 
 %changelog
+* Thu Jun 29 2017 Rich Megginson <rmeggins@redhat.com> - 0.4.5-1
+- version 0.4.5
+
 * Wed Aug 24 2016 Rich Megginson <rmeggins@redhat.com> - 0.4.3-2
 - added Provides for rubygem(fluent-plugin-secure-forward)
 - rubygem Requires must be in the format rubygem(gem_name) not the actual rpm package name
